@@ -1,0 +1,45 @@
+# Godot project files
+*.tscn text eol=lf
+*.gd text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.cfg text eol=lf
+
+# Godot resource files (binary)
+*.scn binary
+*.res binary
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+*.bmp binary
+*.ico binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# 3D Models
+*.obj text eol=lf
+*.fbx binary
+*.gltf text eol=lf
+*.glb binary
+*.dae text eol=lf
+*.blend binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Scripts
+*.sh text eol=lf
+
+# Ignore generated files in diffs
+*.import -diff
