@@ -14,6 +14,10 @@ config/name="PowerTD"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+EventBus="*res://scripts/autoloads/event_bus.gd"
+
 [display]
 
 window/size/viewport_width=960
