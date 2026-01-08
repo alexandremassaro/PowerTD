@@ -1,4 +1,4 @@
-extends RefCounted
+extends Node
 
 
 # Combat signals
@@ -11,6 +11,7 @@ signal structure_built(structure)
 
 
 # Game state signals
+signal game_state_changed(new_state)
 signal wave_started
 signal game_won
 signal game_lost
